@@ -1,6 +1,9 @@
+
+//Question-7; To calculate Fibonacci Series up to n numbers.
+
 import java.util.Scanner;
 
-public class Fibonacci_Series {
+public class Question_7 {
     public static void main(String[] args) {
         int a = 0;
         int b = 1;
@@ -11,10 +14,11 @@ public class Fibonacci_Series {
         System.out.print(a);
         System.out.print(" " + b);
         for (int i = 1; i<= num-2; i++){
-           int c = a + b;
+            int c = a + b;
             a = b;
             b = c;
             System.out.print(" " + c);
         }
     }
 }
+
