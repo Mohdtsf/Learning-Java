@@ -28,7 +28,7 @@ public class Question_2 {
         }
         else if(units > 1200)
         {
-            billToPay =  200 * 3 + 200 * 4.5 + 400 * 6.5 + 400 * 7 + (units - 800) * 8;
+            billToPay =  200 * 3 + 200 * 4.5 + 400 * 6.5 + 400 * 7 + (units - 1200) * 8;
         }
         System.out.println("The electricity bill for " +units+ " is : " + billToPay);
     }
