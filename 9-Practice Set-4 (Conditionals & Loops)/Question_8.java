@@ -1,5 +1,5 @@
 
-//Question-9: Calculate Batting Average.
+//Question-8: Calculate Batting Average.
 
 import java.util.Scanner;
 
